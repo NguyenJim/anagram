@@ -1,5 +1,5 @@
 """
-This program returns all possible anagrams for a given word.
+This program returns all possible anagrams for a given string of characters.
 """
 
 def __main__():
@@ -14,7 +14,7 @@ def create_dict(path):
     # Open english dictionary
     key_dict = {}
     outfile = open(path, "r")
-    for line in outfile.readlines():
+    for line in outfile:
             line = line.strip()
             key = sorted_line(line)
 
