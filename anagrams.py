@@ -1,5 +1,8 @@
 """
 This program returns all possible anagrams for a given string of characters.
+
+Based on code written by Sam Allen.
+http://www.dotnetperls.com/anagram-python
 """
 
 def __main__():
