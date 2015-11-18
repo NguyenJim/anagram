@@ -6,11 +6,11 @@ http://www.dotnetperls.com/anagram-python
 """
 
 def __main__():
-    word = input('Find anagram for ')
+    word = raw_input('Find anagram for ')
     dictionary = create_dict('wordlist.txt')
     results = anagram(dictionary, word)
-    print('Anagrams for', word)
-    print(results)
+    print 'Anagrams for', word
+    print results
 
 # Create the key dict
 def create_dict(path):
